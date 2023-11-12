@@ -1,6 +1,6 @@
 import {
-	fetchFromRadar,
-	fetchFlight,
+    fetchFromRadar,
+    fetchFlight,
 } from './index.js'
 
 const flights = await fetchFromRadar(53, 13, 52, 14)

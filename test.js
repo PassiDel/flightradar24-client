@@ -1,7 +1,6 @@
 import test from 'tape'
 
-import {fetchFromRadar} from './lib/radar.js'
-import {fetchFlight} from './lib/flight.js'
+import {fetchFromRadar, fetchFlight} from './dist/index.js'
 
 const validateAirport = (t, a) => {
 	t.equal(typeof a.id, 'string') // todo: validate IATA code
