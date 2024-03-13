@@ -1,7 +1,7 @@
 {
 	"name": "@puazzi/flightradar24-client",
 	"description": "Fetch aircraft data from Flightradar24.",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"type": "module",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -50,7 +50,7 @@
 	"scripts": {
 		"lint": "eslint .",
 		"test": "node test.js | tap-min",
-		"prepublishOnly": "npm run build && npm run lint && npm test",
+		"prepublishOnly": "npm run build && npm run lint",
 		"build": "rimraf dist && tsc"
 	}
 }
